@@ -1,0 +1,139 @@
+.all-pages-style{
+   background-color: lightgray;
+}
+
+.nav{
+  position: sticky;
+}
+
+body{
+  background: lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position:  sticky;
+  top:  0;
+}
+
+li {
+  display: inline;
+  float:  left;
+  border-right: 1px solid #bbb;
+  font-family: "Roboto", sans-serif;
+}
+
+a:first-child {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+
+.flex-container-home{
+  /*display: flex;*/
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+  text-align:  center;
+  margin-bottom: 0;
+}
+
+p{
+  font-family: "Roboto", sans-serif; 
+  text-align:  center;
+  line-height: 20px;
+}
+
+a:middle-child{
+  background-color: lightgray;
+  display: inline;
+}
+a:last-child{
+  background-color: lightgray;
+  display: inline;
+}
+
+.contact-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin{
+  width: 40px;
+  align-content: center;
+}
+
+.contact{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.allcontact{
+   border: 5px solid rebeccapurple;
+   height: 150px;
+   width: 70%;
+   justify-content: center;
+}
+
+.main-home{
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.portrait{
+  width: 20%;
+  height: fit-content;
+}
+
+.home-text{
+  width: 30%;
+  height: fit-content;
+}
+
+
+.collage-home{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.collage-item{
+  width: 50%;
+  margin-bottom: 10px;
+}
+.eng-portfolio-row{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.eng-portfolio-container{
+  display:  flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+}
+
+
+.eng-portfolio-image{
+  height: 300px;
+  max-width:  400px;
+}
+
+.eng-portfolio-text{
+  max-width: 400px;
+  text-align: left;
+}
+
+
+
